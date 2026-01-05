@@ -1,0 +1,16 @@
+# Julia
+/.julia/
+/Manifest.toml.backup
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Output / artifacts
+*.lp
+*.log
+*.tmp
