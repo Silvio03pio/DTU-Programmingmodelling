@@ -1,8 +1,6 @@
 using JuMP
 using HiGHS
 
-EX = Model(HiGHS.Optimizer)
-set_silent(EX)
 
 # Data & indexes
 I = 1:3           # beer types
